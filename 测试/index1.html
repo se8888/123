@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+<meta title="请稍等.....">
+<style type="text/css">
+body {
+background: #f2f2f2;
+text-align: center;
+}
+h2 {
+}
+small {
+color: #999;
+}
+</style>
+</head>
+<body>
+<h2>正在为你跳转最新可用的《天天撸导航》访问域名，请稍候(<span id="seconds">3</span>).....</h2>
+<p><small>防止使用域名屏蔽，请访问网站后下载地址发布器或者记住地址发布页和地址发布邮箱。</small></p>
+<script type="text/javascript">
+var randUrl = 'http://www.ttldh.top';
+var secondElem = document.getElementById('seconds');
+var seconds = secondElem.textContent;
+var timedFun = function () {
+if (seconds > 1) {
+secondElem.textContent = --seconds;
+setTimeout(function () {
+timedFun();
+}, 1000);
+} else {
+location.href = randUrl;
+}
+};
+setTimeout(function () {
+timedFun();
+}, 1000);
+</script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-86906433-3', 'auto');
+ga('send', 'pageview');
+</script>
+<center><script type="text/javascript" src="https://s4.cnzz.com/z_stat.php?id=1277916066&web_id=1277916066"></script></center>
+</body>
+</html>
